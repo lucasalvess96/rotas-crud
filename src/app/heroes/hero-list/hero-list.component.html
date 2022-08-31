@@ -1,0 +1,28 @@
+<div class="list-heroes">
+    <ul class="heroes">
+        <div class="add-hero">
+            <input 
+                type="text" 
+                placeholder="adicione um novo heroe" 
+                minlength="3"
+                id="hero-name"
+                class="name"
+                [(ngModel)]="heroName"
+            >
+            <button class="btn" type="button" [disabled]="!heroName" (click)="add(heroName)">adicionar</button>
+        </div>
+        
+
+        <div class="search" id="search-component">
+            <input type="text" id="search-box" [(ngModel)]="heroNameSearch"/>
+            <button type="button" (click)="search(heroNameSearch)">Search</button>
+        </div>
+
+        <li *ngFor="let hero of heroes">
+            <a [routerLink]="['/hero', hero.id]">
+                <span class="badge">{{hero.id}}</span>
+                {{hero.name}}
+            </a>
+        </li>
+    </ul>
+</div>

@@ -1,0 +1,50 @@
+{
+  "heroList": [
+    {
+      "id": 1,
+      "name": "HTML 5"
+    },
+    {
+      "id": 2,
+      "name": "CSS 3"
+    },
+    {
+      "id": 3,
+      "name": "JavaScript"
+    },
+    {
+      "id": 4,
+      "name": "Angular 13"
+    },
+    {
+      "id": 5,
+      "name": "Java"
+    },
+    {
+      "id": 6,
+      "name": "Spring-Boot"
+    },
+    {
+      "name": "React JS",
+      "id": 7
+    },
+    {
+      "name": "Typescript",
+      "id": 8
+    },
+    {
+      "name": "Microsoft SQL-server",
+      "id": 9
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
